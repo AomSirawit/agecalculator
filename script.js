@@ -40,6 +40,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     console.log(z);
     
-    result.innerHTML = `คุณมีอายุ <span>${years}</span> ปี <span>${months}</span> เดือน <span>${days}</span> วัน ปีนักษัตริย์ <span>${z}</span> `;
+    result.innerHTML = `คุณมีอายุ <span>${years}</span> ปี <span>${months}</span> เดือน <span>${days}</span> วัน ปีนักษัตร <span>${z}</span> `;
   });
 });
