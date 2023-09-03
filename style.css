@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    background-color: #f7fafd;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    width: 700px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.content h1{
+    font-size: 40px;
+    color: #205c8d;
+    margin: 20px 20px;
+}
+.content input{
+    padding: 10px;
+    width: 30vh;
+    border: 2px solid;
+    border-radius: 15px;
+    font-size: 17px;
+    text-align: center;
+}
+.content button{
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 15px;
+    width: 100px;
+    background-color: #205c8d;
+    color: #fff;
+    margin-left: 10px;
+
+}
+.content button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.wdp{
+    margin-right: 10vh;
+    color: #333;
+}
+.result-container{
+
+    margin-top: 50px;
+    height: 70%;
+    border-radius: 15px;
+    text-align: center;
+}
+#result{
+    font-size: 25px;
+}
+#result span{
+    color: #256aa2;
+}
+.footer{
+    color: #ccc;
+}
+@media only screen and (max-width: 600px) {
+    .content{
+        width: 80%;
+        height: 500px;
+    }
+    .content button{
+        margin-top: 10px;
+    }
+    #result{
+        font-size: 23px;
+    }
+    .wdp{
+        margin-right: 20px;
+    }
+    .footer{
+        font-size: 10px;
+    }
+}
